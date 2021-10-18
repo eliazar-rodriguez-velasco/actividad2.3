@@ -1,0 +1,25 @@
+$def with(result)
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html lang="en">
+    <head>
+<title>REGRESION LINEAL</title>
+    </head>
+    <body>
+        <h1>REGRESION LINEAL</h1>
+        <div class="RE-LINEAL">
+            <div class="N">
+                <h1> 
+                    $if result!=None:
+                        $result
+                </h1>
+            </div>
+            <form method="POST" class="formulario">
+                <input type="number" name="x" id="x">
+                <br>
+                <input type="submit" value="predecir" id="predecir">
+            </form>
+        </div>
+        
+    </body>
+</html>
